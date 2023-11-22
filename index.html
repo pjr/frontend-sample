@@ -322,7 +322,7 @@
           </div>
           </div>
         </aside>
-        <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+        <main class="main-content position-relative border-radius-lg " style="height: 100%;">
           <!-- Header Search Bar -->
           <div class="row g-0">
             <div class="container-search position-relative">
@@ -353,7 +353,8 @@
             Please only change what you need to from here down
           -->
           <!-- Page Title & Breadcrumbs -->
-          <div class="row m-3 mt-4 ms-5">
+         <div class="container">
+ <div class="row m-3 mt-4 ms-5">
 
             <ol class="px-0 pt-1 pb-0 mb-1 bg-transparent breadcrumb me-sm-6 me-5 text-black opacity-7">
               <li class="text-sm breadcrumb-item" >
@@ -386,7 +387,7 @@
                         <h6 class="mb-0 font-weight-semibold text-lg">Owner permissions</h6>
                         <p class="text-sm mb-1">Users added to this list will have complete access to the <i>Home </i>folder.</p>
                         <div class="py-4">
-                          <select name="owners" class="permission-select w-100" name="states[]" multiple="multiple">
+                          <select name="owners" class="permission-select w-100" name="states[]" multiple="multiple" style="width: 100%;">
 
                             <option value="1">john.smith@example.com</option>
                             <option value="2">sarah.jones@example.com</option>
@@ -405,7 +406,7 @@
                         <h6 class="mb-0 font-weight-semibold text-lg">Editor permissions</h6>
                         <p class="text-sm mb-1">Users added to this list will be able to read, update and delete this folder and its contents.</p>
                         <div class="py-4">
-                          <select name="editors" class="permission-select w-100" name="states[]" multiple="multiple">
+                          <select name="editors" class="permission-select w-100" name="states[]" multiple="multiple" style="width: 100%;">
 
                             <option value="1">john.smith@example.com</option>
                             <option value="2">sarah.jones@example.com</option>
@@ -426,7 +427,7 @@
                         <p class="text-sm mb-1">Users added to this list will only be able to read this folder and its content.</p>
                         <div class="py-4">
                           <select name="readers" class="permission-select w-100" 
-                                  name="states[]" multiple="multiple" allowClear="true">
+                                  name="states[]" multiple="multiple" allowClear="true" style="width: 100%;">
 
                             <option value="1">john.smith@example.com</option>
                             <option value="2">sarah.jones@example.com</option>
@@ -453,6 +454,7 @@
               </div>
             </div>
           </form>
+         </div>
 
           <!-- 
             !! END !!
@@ -514,4 +516,3 @@
 
   </body>
 </html>
-
